@@ -1,7 +1,7 @@
 # MLflow-LLM
 Demo of MLflow LLM
 
-### MLflow LLM: Local model: Custop PyFunc
+### MLflow LLM: Local model: Custom PyFunc
 [Custom-pyfunc](custom-pyfunc-advanced-llm.ipynb)
 
 ### MLflow-Open AI: Prompt Engineering UI
