@@ -1,3 +1,6 @@
 mpt-7b/
 mlruns/
 local_text/
+local_models/
+mlartifacts/
+__pycache__/

@@ -11,4 +11,8 @@ mlflow deployments start-server --config-path config.yaml --port 7000
 
 export MLFLOW_DEPLOYMENTS_TARGET="http://127.0.0.1:7000"
 mlflow server --port 5000
+
+curl http://localhost:11434/api/generate -d '{
+ "model": "deepseek-r1"
+}'
 ```
