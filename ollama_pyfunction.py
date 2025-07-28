@@ -20,7 +20,7 @@ class OllamaPyfunc(PythonModel):
 
     def load_context(self, context):
         # self.model_name = context.artifacts["model_name"]
-        self.llm = OllamaLLM(model="gemma3:12b")
+        self.llm = OllamaLLM(model="deepseek-r1:8b")
         embeddings = OpenAIEmbeddings()
         vectorstore = FAISS.load_local(
             context.artifacts["persist_directory"],

@@ -4,3 +4,6 @@ local_text/
 local_models/
 mlartifacts/
 __pycache__/
+faiss_database/
+dataset/
+.vscode/

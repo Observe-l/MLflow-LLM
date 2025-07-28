@@ -16,3 +16,9 @@ curl http://localhost:11434/api/generate -d '{
  "model": "deepseek-r1"
 }'
 ```
+
+
+|model|MSE|
+|---|---|
+|llama3.1:8b|4602.93|
+|gemma3:12b|4919.89|
